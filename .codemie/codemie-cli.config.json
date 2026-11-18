@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "activeProfile": "default",
+  "profiles": {},
+  "codemieAssistants": [
+    {
+      "id": "e20b7f71-05d4-4b70-b397-da68fbd38bd2",
+      "name": "Documentation Assistant",
+      "slug": "documentation-assistant",
+      "description": "Creates and maintains project documentation from approved requirements, design, testing, build, and deployment evidence.",
+      "project": "abhivijaybhai_vachhani@epam.com",
+      "registeredAt": "2026-11-18T15:42:29.063Z",
+      "registrationMode": "agent",
+      "agentTargets": [
+        "claude"
+      ]
+    },
+    {
+      "id": "dc946139-e8d9-4d2f-9ad1-ad6e55b9886b",
+      "name": "Test Assistant",
+      "slug": "test-assistant",
+      "description": "Validates enhancements using Gherkin scenarios, API tests, and Playwright UI automation.",
+      "project": "abhivijaybhai_vachhani@epam.com",
+      "registeredAt": "2026-11-18T15:42:29.065Z",
+      "registrationMode": "agent",
+      "agentTargets": [
+        "claude"
+      ]
+    },
+    {
+      "id": "799fd3ca-59c5-466f-a2a4-e0a908366d19",
+      "name": "Deployment Assistant",
+      "slug": "deployment-assistant",
+      "description": "Builds and deploys the application locally using the existing project configuration.",
+      "project": "abhivijaybhai_vachhani@epam.com",
+      "registeredAt": "2026-11-18T15:42:29.068Z",
+      "registrationMode": "agent",
+      "agentTargets": [
+        "claude"
+      ]
+    },
+    {
+      "id": "ae0bf23b-d18f-4cb8-ae03-88732ffbfc62",
+      "name": "Code Review Assistant",
+      "slug": "code-review-assistant",
+      "description": "Reviews code changes against approved requirements, architecture, coding standards, security, maintainability, and test coverage.",
+      "project": "abhivijaybhai_vachhani@epam.com",
+      "registeredAt": "2026-11-18T15:42:29.069Z",
+      "registrationMode": "agent",
+      "agentTargets": [
+        "claude"
+      ]
+    },
+    {
+      "id": "b3471a13-95cf-4a80-82e3-331bd66fa876",
+      "name": "Development Assistant",
+      "slug": "development-assistant",
+      "description": "Implements approved User Stories using the approved implementation plan and architecture.",
+      "project": "abhivijaybhai_vachhani@epam.com",
+      "registeredAt": "2026-11-18T15:42:29.074Z",
+      "registrationMode": "agent",
+      "agentTargets": [
+        "claude"
+      ]
+    }
+  ]
+}
