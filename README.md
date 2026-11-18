@@ -11,6 +11,7 @@ Python, FastAPI, SQLite, HTML/CSS/JavaScript, Pytest, Playwright.
 - Required-field validation
 - Reject duplicate email addresses
 - SQLite persistence
+- Delete asks for browser confirmation ("Delete this employee?") before removing
 
 ## Run locally
 ```bash
@@ -33,6 +34,8 @@ Keep the app running in another terminal:
 playwright install chromium
 pytest tests/test_ui.py -v
 ```
+
+UI tests use the real `employees.db` and are not run in CI. See `docs/test-plan.md` and `docs/status.md` for limitations.
 
 ## Suggested Jira story
 **EMP-101 – Employee CRUD Management**
