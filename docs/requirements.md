@@ -1,1 +1,9 @@
-# Requirements – EMP-101\n\n- Create, list, update and delete employees.\n- Search employees by name.\n- Validate required fields and email format.\n- Reject duplicate email addresses.\n- Persist data in SQLite.\n
+# Requirements - EMP-101
+
+- Create, list, update and delete employees.
+- Search employees by name.
+- Validate required fields and email format.
+- Reject duplicate email addresses.
+- Persist data in SQLite.
+- Delete confirmation: the UI asks "Delete this employee?" before sending
+  `DELETE /api/employees/{id}`. Cancelling keeps the employee; confirming removes it.

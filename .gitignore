@@ -1,1 +1,9 @@
-.venv/\nvenv/\n__pycache__/\n*.py[cod]\n.pytest_cache/\n*.db\n.env\n.idea/\n.vscode/\n
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+.env
+.idea/
+.vscode/

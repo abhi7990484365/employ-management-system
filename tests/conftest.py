@@ -1,3 +1,4 @@
+import gc
 import os
 import tempfile
 import pytest
@@ -12,4 +13,5 @@ def client(monkeypatch):
     monkeypatch.setattr(database, "DB_PATH", path)
     with TestClient(app) as c:
         yield c
+    gc.collect()
     os.unlink(path)
