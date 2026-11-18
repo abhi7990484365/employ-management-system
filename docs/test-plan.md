@@ -1,0 +1,1 @@
+# Test Plan – EMP-101\n\nAPI: create, list, update, delete, duplicate email, missing ID, search.\n\nUI: create employee and search employee.\n\nRun API tests: `pytest tests/test_api.py -v`.\nRun UI tests with app running: `pytest tests/test_ui.py -v`.\n
