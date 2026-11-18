@@ -1,0 +1,1 @@
+# Requirements – EMP-101\n\n- Create, list, update and delete employees.\n- Search employees by name.\n- Validate required fields and email format.\n- Reject duplicate email addresses.\n- Persist data in SQLite.\n

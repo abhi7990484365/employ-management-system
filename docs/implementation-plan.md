@@ -1,0 +1,1 @@
+# Implementation Plan – EMP-101\n\n1. Create SQLite employee table.\n2. Implement FastAPI CRUD/search endpoints.\n3. Build browser UI.\n4. Add pytest API tests and Playwright UI tests.\n5. Run locally and document evidence.\n
